@@ -1,0 +1,38 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "testuserpoolaccount-20180824150009-authRole",
+			"UnauthRoleArn": "arn:aws:iam::070310680336:role/testuserpoolaccount-20180824150009-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::070310680336:role/testuserpoolaccount-20180824150009-authRole",
+			"Region": "ap-southeast-2",
+			"DeploymentBucketName": "testuserpoolaccount-20180824150009-deployment",
+			"UnauthRoleName": "testuserpoolaccount-20180824150009-unauthRole",
+			"StackName": "testuserpoolaccount-20180824150009",
+			"StackId": "arn:aws:cloudformation:ap-southeast-2:070310680336:stack/testuserpoolaccount-20180824150009/93a10a20-a75a-11e8-8896-02dc1818da60"
+		}
+	},
+	"auth": {
+		"cognito11e52b74": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/testuserpoolaccount-20180824150009-deployment/amplify-cfn-templates/auth/cognito11e52b74-cloudformation-template.yml",
+				"logicalId": "authcognito11e52b74"
+			},
+			"lastPushTimeStamp": "2018-08-24T05:20:59.271Z",
+			"output": {
+				"GoogleWebClient": "348590196159-hu2p68j76eqgs7c0j4nc4v495kjg01em.apps.googleusercontent.com",
+				"CreatedSNSRole": "arn:aws:iam::070310680336:role/cognito11e52b74_sns-role",
+				"AppClientSecret": "1l5ccop2oia01qjm1htiv4nnss1ioget4h61ev6178of0s2pki06",
+				"UserPoolId": "ap-southeast-2_gEjADJYEL",
+				"AppClientIDWeb": "4lrq5q5l2kde65sb3b87guhqp8",
+				"AppClientID": "60qnfmmumtn2nl31gapib5nu8e",
+				"FacebookWebClient": "174036433240750",
+				"IdentityPoolId": "ap-southeast-2:b64d3261-eb8f-4a60-a8e1-a24ba20c88d6",
+				"IdentityPoolName": "testuserpoolaccount11e52b74_identitypool_11e52b74",
+				"UserPoolName": "testuserpoolaccount11e52b74_userpool_11e52b74"
+			},
+			"lastPushDirHash": "tt3y/6plackWT6JItg/RNecpKQU="
+		}
+	}
+}
